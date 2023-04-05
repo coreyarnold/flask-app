@@ -2,7 +2,7 @@
 
 This is a basic example app. It is intended to show instrumentation with New Relic python agent and Browser agent auto instrumentation.
 
- * *set New Relic license key in `newrelic.ini`
+ * set New Relic license key in `newrelic.ini`
  * turn on Browser agent auto instrumentation by setting `browser_monitoring.auto_instrument = true`
 
 ## How to run
