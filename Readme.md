@@ -6,17 +6,15 @@ This is a basic example app. It is intended to show instrumentation with New Rel
  * turn on Browser agent auto instrumentation by setting `browser_monitoring.auto_instrument = true`
 
 ## How to run
-`pipenv install`
-`pipenv shell`
-
-`pip install flask`
-`export FLASK_ENV=development`
-`export FLASK_APP=app`
-
-`pip install newrelic`
-
-`flask run`
-
+```
+$ pipenv install
+$ pipenv shell
+$ pip install flask
+$ export FLASK_ENV=development
+$ export FLASK_APP=app
+$ pip install newrelic
+$ flask run
+```
 
 ## References
-This app follows the tutorial on [digitalocean](https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3). You will also need to setup a python environment using Homebrew, Pyenv, and Pipenv.
+This app follows the tutorial on [digitalocean](https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3). You will also need to setup a [python environment](https://medium.com/geekculture/setting-up-python-environment-in-macos-using-pyenv-and-pipenv-116293da8e72) using Homebrew, Pyenv, and Pipenv.
